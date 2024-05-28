@@ -644,7 +644,7 @@
             <div class="contactForm">
                 <div class="row">
                     <div class="col-lg-12">
-                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1920&amp;height=447&amp;hl=en&amp;q=Simba%20Clearing%20&amp;%20Freight%20Forwarding%20Dar%20es%20Salaam+(Simba%20Clearing%20&amp;%20Freight%20Forwarding)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.versicherungen.at/private-krankenversicherung/'></script>
+                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1920&amp;height=447&amp;hl=en&amp;q=Simba%20Clearing%20&amp;%20Freight%20Forwarding%20Dar%20es%20Salaam+(Simba%20Clearing%20&amp;%20Freight%20Forwarding)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></script>
                     </div>
                 </div>
             </div>
