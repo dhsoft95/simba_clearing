@@ -127,7 +127,7 @@
                         <div class="collapse navbar-collapse mean-menu">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <a href="#home" class="nav-link">Hame</a>
+                                    <a href="#home" class="nav-link">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#about" class="nav-link">About us</a>
@@ -138,7 +138,7 @@
                                 <li class="nav-item">
                                     <a href="#team" class="nav-link">Team</a>
                                 </li> <li class="nav-item">
-                                    <a href="http://system.simbaclearing.co.tz/login" class="nav-link">Customer portal</a>
+                                    <a href="http://system.simbaclearing.co.tz/login" class="nav-link">Customer Portal</a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#contact" class="nav-link">Contact</a>
@@ -188,7 +188,7 @@
                             <h1>Efficient Clearing & Forwarding</h1>
                             <p>Delivering efficient Clearing & Forwarding solutions tailored to your needs.</p>
                             <a href="#contact" class="default-btn-one me-3">Contact Us</a>
-{{--                            <a href="#" class="default-btn-two">Get A Quote</a>--}}
+{{--                            <a href="" class="default-btn-two">Get A Quote</a>--}}
                         </div>
                     </div>
                 </div>
