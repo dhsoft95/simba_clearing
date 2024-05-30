@@ -10,7 +10,7 @@
     <meta name="author" content="David John Haule">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Simba Clearing - Logistics and Freight Forwarding</title>
+    <title>SIMBA-CLEARING</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -23,13 +23,17 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
 
 </head>
+
+
 
 
 <body>
@@ -49,114 +53,101 @@
 
 
 <section id="home">
-    <header class="header-area">
-        <div class="top-header">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-sm-6">
-                        <ul class="left-info">
-                            <li>
-                                <span class="__cf_email__" >info@simbaclearing.co.tz</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="tel:+823-456-879">
-                                    <i class="bx bxs-phone-call"></i>
-                                    +255 (0) 22 211-1141
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-sm-6">
-                        <ul class="right-info">
-                            <li class="mr-20">
-                                <a href="#contact">Contact</a>
-                            </li>
-                            <li class="mr-20">
-                                <a href="#">Career</a>
-                            </li>
-                            <li class="mr-20">
-                                <a href="#">News & Media</a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <i class="bx bxl-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <i class="bx bxl-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <i class="bx bxl-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/simbaclearing_?igsh=MWdqbmZnM3Z3aHZteQ==" target="_blank">
-                                    <i class="bx bxl-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+    <div class="top-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-6">
+                    <ul class="left-info">
+                        <li>
+                            <a href="mailto:info@simbaclearing.co.tz">
+                                <span class="__cf_email__">info@simbaclearing.co.tz</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+255222111141">
+                                <i class="bx bxs-phone-call"></i>
+                                +255 (0) 22 211-1141
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <ul class="right-info">
+                        <li class="mr-20">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="mr-20">
+                            <a href="#">Careers</a>
+                        </li>
+                        <li class="mr-20">
+                            <a href="#">News & Media</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/simbaclearing_?igsh=MWdqbmZnM3Z3aHZteQ==" target="_blank">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
 
-        <div class="navbar-area">
-            <div class="ferry-responsive-nav">
-                <div class="container">
-                    <div class="ferry-responsive-menu">
-                        <div class="logo">
-                            <a href="">
-                                <img src="assets/img/logo.png" class="main-logo" alt="logo">
-                                <img src="assets/img/logo-2.png" class="white-logo" alt="logo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ferry-nav">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/logo.png" class="main-logo" alt="logo">
-                            <img src="assets/img/logo-2.png" class="white-logo" alt="logo">
-                        </a>
-                        <div class="collapse navbar-collapse mean-menu">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item">
-                                    <a href="#home" class="nav-link">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#about" class="nav-link">About us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#services" class="nav-link">Service</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#team" class="nav-link">Team</a>
-                                </li> <li class="nav-item">
-                                    <a href="http://system.simbaclearing.co.tz/login" class="nav-link">Customer Portal</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#contact" class="nav-link">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="javascript:void(0)" class="nav-link search-box">
-                                        <i class="bx bx-search"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
+{{--            <h1 class="logo me-auto"><a href="/">SIMBA CLEARING</a></h1>--}}
+            <!-- Uncomment below if you prefer to use an image logo -->
+     <a href="index.html" class="logo me-auto"><img src="assets/img/unnamed.png" alt="" class="img-fluid"></a>
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link scrollto" href="#doctors">Partners</a></li>
+{{--                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>--}}
+{{--                        <ul>--}}
+{{--                            <li><a href="#">Drop Down 1</a></li>--}}
+{{--                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>--}}
+{{--                                <ul>--}}
+{{--                                    <li><a href="#">Deep Drop Down 1</a></li>--}}
+{{--                                    <li><a href="#">Deep Drop Down 2</a></li>--}}
+{{--                                    <li><a href="#">Deep Drop Down 3</a></li>--}}
+{{--                                    <li><a href="#">Deep Drop Down 4</a></li>--}}
+{{--                                    <li><a href="#">Deep Drop Down 5</a></li>--}}
+{{--                                </ul>--}}
+{{--                            </li>--}}
+{{--                            <li><a href="#">Drop Down 2</a></li>--}}
+{{--                            <li><a href="#">Drop Down 3</a></li>--}}
+{{--                            <li><a href="#">Drop Down 4</a></li>--}}
+{{--                        </ul>--}}
+{{--                    </li>--}}
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+            </nav><!-- .navbar -->
+
+            <a href="http://system.simbaclearing.co.tz/login" class="appointment-btn scrollto"><span class="d-none d-md-inline">Customer </span> Portal</a>
+
         </div>
 
     </header>
-
 
     <div class="search-overlay">
         <div class="d-table">
@@ -178,7 +169,6 @@
         </div>
     </div>
 
-
     <div class="hero-slider owl-carousel owl-theme">
         <div class="hero-slider-item item-bg1">
             <div class="d-table">
@@ -188,7 +178,6 @@
                             <h1>Efficient Clearing & Forwarding</h1>
                             <p>Delivering efficient Clearing & Forwarding solutions tailored to your needs.</p>
                             <a href="#contact" class="default-btn-one me-3">Contact Us</a>
-{{--                            <a href="" class="default-btn-two">Get A Quote</a>--}}
                         </div>
                     </div>
                 </div>
@@ -202,7 +191,6 @@
                             <h1>Customized Clearing & Forwarding Services</h1>
                             <p>Providing tailored Clearing & Forwarding services to meet your specific requirements.</p>
                             <a href="#contact" class="default-btn-one me-3">Contact Us</a>
-{{--                            <a href="#" class="default-btn-two">Get A Quote</a>--}}
                         </div>
                     </div>
                 </div>
@@ -216,34 +204,33 @@
                             <h1>Reliable Clearing & Forwarding Solutions</h1>
                             <p>Offering reliable Clearing & Forwarding solutions to streamline your operations.</p>
                             <a href="#contact" class="default-btn-one me-3">Contact Us</a>
-{{--                            <a href="#" class="default-btn-two">Get A Quote</a>--}}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 </section>
+
 <section id="about">
     <div class="container">
         <div class="contact-area mb-85">
             <div class="contact-content">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="contact-card">
                             <i class="bx bxs-phone"></i>
-                            <h4>Contact Number</h4>
+                            <h4>Contacts</h4>
                             <p>
                                 <a href="tel:+4560123987"> +255 (0) 22 211-1141</a>
                             </p>
-{{--                            <p>--}}
-{{--                                <a href="tel:+0123456789">+0123 456 789</a>--}}
-{{--                            </p>--}}
+                            <p>
+                                <a><span class="">info@simbaclearing.co.tz</span></a>
+                            </p>
+
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="contact-card">
                             <i class="bx bxs-location-plus"></i>
                             <h4>Our Location</h4>
@@ -252,30 +239,13 @@
                             <p>P.O Box 12538 Tanzania </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="contact-card">
                             <i class="bx bx-show"></i>
                             <h4>Opening Hours</h4>
-                            <p>8:30 AM - 5:00 PM</p>
-                            <p>Monday - Friday</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="contact-card">
-                            <i class="bx bxs-envelope"></i>
-                            <h4>Our Email</h4>
-                            <p>
-                                <a
-                                    href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#cda5a8a1a1a28daba8bfbfb4e3aea2a0"><span
-                                        class="__cf_email__">info@simbaclearing.co.tz</span></a>
-                            </p>
-                            <!-- <p>
-                                <a
-                                    href="https://templates.hibootstrap.com/cdn-cgi/l/email-protection#2a43444c456a4d474b434604494547"><span
-                                        class="__cf_email__"
-                                        data-cfemail="2e474048416e49434f4742004d4143">[email&#160;protected]</span>
-                                    </a>
-                            </p> -->
+                            <p> Monday - Friday 8:30 AM - 5:00 PM</p>
+                            <p>Saturday 9:30 AM - 2:00 PM</p>
+                            <p>Sunday and holidays CLOSED</p>
                         </div>
                     </div>
                 </div>
@@ -292,16 +262,13 @@
                             <h2>From Clearance to Delivery, We’ve Got You Covered</h2>
                         </div>
                         <div class="about-text">
-                            <p>At Simba Clearing and Forwarding, a sister company of Simba Group of Companies, we are
-                                dedicated to facilitating seamless logistics solutions that drive efficiency,
-                                reliability, and sustainability in the Sub-Saharan region. As part of the esteemed Simba
-                                Group, we uphold a commitment to excellence, innovation, and customer satisfaction in
-                                every aspect of our operations.</p>
-                            <p>As a leading entity in Sub-Saharan Africa, our goal is to redefine service delivery and
-                                manufacturing industry standards while fostering long-term performance and
-                                sustainability.</p>
-{{--                            <a href="about.html" class="default-btn-one btn-bs">Learn More</a>--}}
+                            <p style="text-align: justify">At Simba Clearing and Forwarding, a sister company of Simba Group of Companies, we are dedicated to facilitating seamless logistics solutions that drive efficiency, reliability, and sustainability in the Sub-Saharan region. As part of the esteemed Simba Group, we uphold a commitment to excellence, innovation, and customer satisfaction in every aspect of our operations.</p>
+
+                            <p style="text-align: justify">As a leading entity in Sub-Saharan Africa, our goal is to redefine service delivery and manufacturing industry standards while fostering long-term performance and sustainability. We operate in various Sub-Saharan African countries, including Nigeria, South Africa, Kenya, Ethiopia, Ghana, Uganda, Cameroon, Senegal, Tanzania, and Zimbabwe.</p>
+
+{{--                            <p>For a comprehensive list of countries we serve, please <a href="about.html">contact us</a>.</p>--}}
                         </div>
+
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -413,6 +380,198 @@
         </div>
     </div>
 </section>
+
+
+<section id="events" class="events">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h5 style="color: #1762aa">INTERNATIONAL</h5>
+            <h1 style="color: #f7941dd4">MEMBERSHIPS</h1>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+
+                <!-- Maersk -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">Maersk</h3>
+                            <p style="color: black">
+                                Our partnership with Maersk, a global leader in container shipping, ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End Maersk -->
+
+                <!-- PIL (Pacific International Lines) -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">PIL (Pacific International Lines)</h3>
+                            <p style="color: black">
+                                Our partnership with PIL, a global leader in container shipping, ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End PIL (Pacific International Lines) -->
+
+                <!-- Cosco (China Ocean Shipping Company) -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">Cosco (China Ocean Shipping Company)</h3>
+                            <p style="color: black">
+                                Our partnership with Cosco, a global leader in container shipping, ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End Cosco (China Ocean Shipping Company) -->
+
+                <!-- MSC (Mediterranean Shipping Company) -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner4.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">MSC (Mediterranean Shipping Company)</h3>
+                            <p style="color: black">
+                                Our partnership with MSC, a global leader in container shipping, ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End MSC (Mediterranean Shipping Company) -->
+
+                <!-- Evergreen Marine -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner5.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">Evergreen Marine</h3>
+                            <p style="color: black">
+                                Our partnership with Evergreen Marine, a global leader in container shipping, ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End Evergreen Marine -->
+
+                <!-- Inchcape Shipping Services -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner6.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">Inchcape Shipping Services</h3>
+                            <p style="color: black">
+                                Our partnership with Inchcape Shipping Services ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End Inchcape Shipping Services -->
+
+                <!-- Coral Shipping -->
+{{--                <div class="swiper-slide">--}}
+{{--                    <div class="row event-item">--}}
+{{--                        <div class="col-lg-6">--}}
+{{--                            <img src="assets/img/partner/partner7.png" class="img-fluid" alt="">--}}
+{{--                        </div>--}}
+{{--                        <div class="col-lg-6 pt-4 pt-lg-0 content">--}}
+{{--                            <h3 style="color: #1762aa;">Coral Shipping</h3>--}}
+{{--                            <p style="color: black">--}}
+{{--                                Our partnership with Coral Shipping ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+                <!-- End Coral Shipping -->
+
+                <!-- CMA-CGM Line Limited -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner8.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">CMA-CGM Line Limited</h3>
+                            <p style="color: black">
+                                Our partnership with CMA-CGM Line Limited ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FIATA -->
+                <div class="swiper-slide">
+                    <div class="row event-item">
+                        <div class="col-lg-6">
+                            <img src="assets/img/partner/partner11.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content">
+                            <h3 style="color: #1762aa;">FIATA</h3>
+                            <p style="color: black">
+                                Our partnership with FIATA (International Federation of Freight Forwarders Associations) ensures seamless logistics solutions for our clients. With access to their extensive network and industry expertise, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
+                            </p>
+                        </div>
+                    </div>
+                </div><!-- End FIATA -->
+
+                <!-- End CMA-CGM Line Limited -->
+
+                <!-- Diamond Shipping -->
+{{--                <div class="swiper-slide">--}}
+{{--                    <div class="row event-item">--}}
+{{--                        <div class="col-lg-6">--}}
+{{--                            <img src="assets/img/partner/partner9.png" class="img-fluid" alt="">--}}
+{{--                        </div>--}}
+{{--                        <div class="col-lg-6 pt-4 pt-lg-0 content">--}}
+{{--                            <h3 style="color: #1762aa;">Diamond Shipping</h3>--}}
+{{--                            <p style="color: black">--}}
+{{--                                Our partnership with Diamond Shipping ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+                <!-- End Diamond Shipping -->
+
+                <!-- Sharaf Shipping -->
+{{--                <div class="swiper-slide">--}}
+{{--                    <div class="row event-item">--}}
+{{--                        <div class="col-lg-6">--}}
+{{--                            <img src="assets/img/partner/partner10.png" class="img-fluid" alt="">--}}
+{{--                        </div>--}}
+{{--                        <div class="col-lg-6 pt-4 pt-lg-0 content">--}}
+{{--                            <h3 style="color: #1762aa;">Sharaf Shipping</h3>--}}
+{{--                            <p style="color: black">--}}
+{{--                                Our partnership with Sharaf Shipping ensures seamless logistics solutions for our clients. With access to their extensive network of shipping routes, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+                <!-- End Sharaf Shipping -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>
+
+
+
 
 <section id="services">
     <div class="our-services-area ptb-100">
@@ -593,7 +752,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-card">
                         <div class="team-image">
-                            <img src="assets/img/team/team2.jpg" alt="John Herman Kinabo">
+                            <img src="assets/img/team/team2.jpg" alt="John  Kinabo">
                             <div class="caption">
                                 <ul>
                                     <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>
@@ -604,7 +763,7 @@
                             </div>
                         </div>
                         <div class="team-text">
-                            <h3  style="color: white">John Herman Kinabo</h3>
+                            <h3  style="color: white">John  Kinabo</h3>
                             <i> <span>Managing Director Simba Clearing</span></i>
                             <p  style="color: white">John Herman Kinabo, our Managing Director, leads our team in providing industry-specific solutions and expanding our logistics activities.</p>
                         </div>
@@ -703,32 +862,32 @@
         <div class="partner-slider owl-carousel owl-theme">
             <div class="partner-slider-item">
                 <a href="#">
-                    <img src="assets/img/partner/partner1.png" alt="logo">
+                    <img src="assets/img/clients/partner1.png" alt="logo">
                 </a>
             </div>
             <div class="partner-slider-item">
                 <a href="#">
-                    <img src="assets/img/partner/partner2.png" alt="logo">
+                    <img src="assets/img/clients/partner2.png" alt="logo">
                 </a>
             </div>
             <div class="partner-slider-item">
                 <a href="#">
-                    <img src="assets/img/partner/partner3.png" alt="logo">
+                    <img src="assets/img/clients/partner3.png" alt="logo">
                 </a>
             </div>
             <div class="partner-slider-item">
                 <a href="#">
-                    <img src="assets/img/partner/partner4.png" alt="logo">
+                    <img src="assets/img/clients/partner4.png" alt="logo">
                 </a>
             </div>
             <div class="partner-slider-item">
                 <a href="#">
-                    <img src="assets/img/partner/partner5.png" alt="logo">
+                    <img src="assets/img/clients/partner5.png" alt="logo">
                 </a>
             </div>
             <div class="partner-slider-item">
                 <a href="#">
-                    <img src="assets/img/partner/partner6.png" alt="logo">
+                    <img src="assets/img/clients/partner6.png" alt="logo">
                 </a>
             </div>
         </div>
@@ -893,6 +1052,24 @@
 <div class="go-top">
     <i class="bx bx-chevrons-up"></i>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var navbarToggler = document.querySelector('.ferry-nav .navbar-toggler');
+        var navbarCollapse = document.querySelector('.ferry-nav .navbar-collapse');
+        var navLinks = document.querySelectorAll('.ferry-nav .nav-link');
+
+        navLinks.forEach(function(navLink) {
+            navLink.addEventListener('click', function() {
+                if (window.innerWidth < 992) {
+                    navbarCollapse.classList.remove('show');
+                    navbarToggler.classList.add('collapsed');
+                }
+            });
+        });
+    });
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
@@ -946,6 +1123,8 @@
         });
     });
 </script>
+
+
 <script data-cfasync="false"
         src="https://templates.hibootstrap.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 {{--<script src="assets/js/jquery.min.js"></script>--}}
@@ -954,6 +1133,9 @@
 <script src="assets/js/meanmenu.min.js"></script>
 
 <script src="assets/js/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="assets/js/partaner.js"></script>
 
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
