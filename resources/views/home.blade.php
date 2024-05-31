@@ -265,7 +265,6 @@
                             <p style="text-align: justify">At Simba Clearing and Forwarding, a sister company of Simba Group of Companies, we are dedicated to facilitating seamless logistics solutions that drive efficiency, reliability, and sustainability in the Sub-Saharan region. As part of the esteemed Simba Group, we uphold a commitment to excellence, innovation, and customer satisfaction in every aspect of our operations.</p>
 
                             <p style="text-align: justify">As a leading entity in Sub-Saharan Africa, our goal is to redefine service delivery and manufacturing industry standards while fostering long-term performance and sustainability. We operate in various Sub-Saharan African countries, including Nigeria, South Africa, Kenya, Ethiopia, Ghana, Uganda, Cameroon, Senegal, Tanzania, and Zimbabwe.</p>
-
 {{--                            <p>For a comprehensive list of countries we serve, please <a href="about.html">contact us</a>.</p>--}}
                         </div>
 
@@ -515,19 +514,20 @@
                 </div>
 
                 <!-- FIATA -->
-                <div class="swiper-slide">
-                    <div class="row event-item">
-                        <div class="col-lg-6">
-                            <img src="assets/img/partner/partner11.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-lg-6 pt-4 pt-lg-0 content">
-                            <h3 style="color: #1762aa;">FIATA</h3>
-                            <p style="color: black">
-                                Our partnership with FIATA (International Federation of Freight Forwarders Associations) ensures seamless logistics solutions for our clients. With access to their extensive network and industry expertise, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.
-                            </p>
-                        </div>
-                    </div>
-                </div><!-- End FIATA -->
+{{--                <div class="swiper-slide">--}}
+{{--                    <div class="row event-item">--}}
+{{--                        <div class="col-lg-6">--}}
+{{--                            <img src="assets/img/partner/partner11.png" class="img-fluid" alt="">--}}
+{{--                        </div>--}}
+{{--                        <div class="col-lg-6 pt-4 pt-lg-0 content">--}}
+{{--                            <h3 style="color: #1762aa;">FIATA</h3>--}}
+{{--                            <p style="color: black">--}}
+{{--                                Our partnership with FIATA (International Federation of Freight Forwarders Associations) ensures seamless logistics solutions for our clients. With access to their extensive network and industry expertise, we guarantee efficient and reliable transportation worldwide. Together, we prioritize service excellence, timely deliveries, and client satisfaction, reinforcing our commitment to optimizing supply chain efficiency and driving value in international trade.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+                <!-- End FIATA -->
 
                 <!-- End CMA-CGM Line Limited -->
 
@@ -647,13 +647,16 @@
     </div>
 
 
-    <div class="best-logistic-area ptb-100">
+    <div class="best-logistic-area ptb-100" style="
+    background: rgb(61,145,255);
+background: linear-gradient(180deg, rgba(61,145,255,0.9990589985994398) 45%, rgba(255,255,255,1) 100%);
+    ">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="logistic-text">
-                        <h2>Top-Quality <span>Clearing and Forwarding</span> for Your Needs</h2>
-                        <p style="text-align: justify">Experience top-quality Clearing and Forwarding solutions tailored to your specific requirements. Our services are designed to streamline your operations and ensure efficient transportation of goods. We prioritize your satisfaction and aim to exceed your expectations every step of the way.</p>
+                        <h2 style="color: white">Top-Quality <span style="color: #f7941d">Clearing and Forwarding</span> for Your Needs</h2>
+                        <p style="text-align: justify;color: white">Experience top-quality Clearing and Forwarding solutions tailored to your specific requirements. Our services are designed to streamline your operations and ensure efficient transportation of goods. We prioritize your satisfaction and aim to exceed your expectations every step of the way.</p>
                     </div>
 {{--                    <a href="#" class="default-btn-one">Read More</a>--}}
                 </div>
@@ -677,7 +680,7 @@
                     <div class="choose-card">
                         <i class="bx bx-world"></i>
                         <h3>Worldwide Service</h3>
-                        <p >Benefit from our extensive global network and experience seamless logistics solutions across borders, ensuring your goods reach their destination efficiently and on time.</p>
+                        <p>Benefit from our extensive global network and experience seamless logistics solutions across borders, ensuring your goods reach their destination efficiently and on time.</p>
                     </div>
                 </div>
                 <div class="choose-contant">
@@ -708,18 +711,36 @@
                         <span>Why Choose Us</span>
                         <h2>Reliable and Efficient Clearing and Forwarding Services Near You</h2>
                     </div>
-                    <p>Discover the advantages of our reliable and efficient logistics services tailored to meet your specific requirements. We are committed to providing top-notch solutions that ensure the safe and timely delivery of your goods.</p>
-                    <p>With our dedication to excellence, you can trust us to handle your Clearing and Forwarding needs with professionalism and care. Contact us today to experience the difference!</p>
-{{--                    <a href="#" class="default-btn-one">Get in Touch</a>--}}
+                    <p style="text-align: justify;">
+                        Discover the advantages of our reliable and efficient logistics services tailored to meet your specific requirements. We are committed to providing top-notch solutions that ensure the safe and timely delivery of your goods.
+                    </p>
+                    <p style="text-align: justify;">
+                        With our dedication to excellence, you can trust us to handle your clearing and forwarding needs with professionalism and care. Contact us today to experience the difference!
+                    </p>
+                    <p style="text-align: justify;">
+                        Simba Clearing and Forwarding is ISO 9001:2015 certified, ensuring top-notch quality in our customer clearing and forwarding services. Additionally, our team includes WCA advanced professionals, underscoring our commitment to professional excellence and advanced logistics capabilities.
+                    </p>
+                    <div class="row mt-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="certificate-image">
+                                <img src="assets/img/partner/Certificates -1.jpg" alt="Certificate 1" class="certificate-img">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="certificate-image">
+                                <img src="assets/img/partner/Certificates -2.jpg" alt="Certificate 2" class="certificate-img">
+                            </div>
+                        </div>
+                    </div>
                     <div class="shape-image">
                         <img src="assets/img/shape/shape2.png" alt="icon">
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
+
 
 <section id="team" style="background-color: #0a58ca; color: whitesmoke;">
     <div class="team-area ptb-100">
@@ -890,6 +911,11 @@
                     <img src="assets/img/clients/partner6.png" alt="logo">
                 </a>
             </div>
+            <div class="partner-slider-item">
+                <a href="#">
+                    <img src="assets/img/clients/partner7.png" alt="logo">
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -935,7 +961,11 @@
                         <img src="assets/img/logo.png" class="main-logo" alt="Simba Clearing Logo">
                         <img src="assets/img/logo-2.png" class="white-logo" alt="Simba Clearing Logo">
                     </div>
-                    <p>Providing reliable logistics solutions tailored to your needs.</p>
+
+                    <p style="text-align: justify">
+
+                        Simba Clearing and Forwarding offers reliable, efficient logistics services with a commitment to timely delivery and professionalism. We are ISO 9001:2015 certified and employ WCA advanced professionals to ensure top-notch quality.
+                    </p>
                     <ul class="footer-socials">
                         <li>
                             <a href="#" target="_blank">
@@ -1044,8 +1074,12 @@
 </div>
 <div class="footer-bottom">
     <div class="container">
-        <p>Copyright @2024 Simba Clearing. All Rights Reserved <a href="https://simbagrp.com" target="_blank">Simba Group of Companies</a>
+        <p>
+            Copyright @2024 Simba Clearing. All Rights Reserved
+            <br>
+            <a href="https://simbagrp.com" target="_blank">Simba Group of Companies</a>
         </p>
+
     </div>
 </div>
 
