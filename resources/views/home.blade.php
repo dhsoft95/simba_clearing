@@ -785,7 +785,7 @@ background: linear-gradient(180deg, rgba(61,145,255,0.9990589985994398) 45%, rgb
                         </div>
                         <div class="team-text">
                             <h3  style="color: white">John  Kinabo</h3>
-                            <i> <span>Managing Director Simba Clearing</span></i>
+                            <i> <span>Chief Executive Officer (CEO)</span></i>
                             <p  style="color: white">John Herman Kinabo, our Managing Director, leads our team in providing industry-specific solutions and expanding our logistics activities.</p>
                         </div>
                     </div>
@@ -805,7 +805,7 @@ background: linear-gradient(180deg, rgba(61,145,255,0.9990589985994398) 45%, rgb
                         </div>
                         <div class="team-text">
                             <h3  style="color: white">Gladness Mosha </h3>
-                            <i> <span>General Manager Simba Clearing</span></i>
+                            <i> <span>Chief Operating Officer(COO)</span></i>
                             <p  style="color: white">Gladness Mosha, our General Manager, ensures operational efficiency and delivers exceptional service to our clients.</p>
                         </div>
                     </div>
