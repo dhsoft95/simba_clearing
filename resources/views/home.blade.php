@@ -175,8 +175,8 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="banner-content">
-                            <h1>Efficient Clearing & Forwarding</h1>
-                            <p>Delivering efficient Clearing & Forwarding solutions tailored to your needs.</p>
+                            <h1>Welcome to Simba Clearing & Freight Forwarding Ltd</h1>
+                            <p>Where cargo handling solution operates under the element of TIME and TRUST.</p>
                             <a href="#contact" class="default-btn-one me-3">Contact Us</a>
                         </div>
                     </div>
@@ -299,8 +299,10 @@
                                         <ul>
                                             <li>
                                                 <i class="bx bx-check"></i>
-                                                Reliability: Emerge as the most reliable supply chain service company in
-                                                the region, setting the benchmark for excellence and innovation.
+                                                Is to be the leading global logistics partner, de-
+                                                livering seamless, reliable, and innovative
+                                                supply chain solutions that drive global trade
+                                                and foster long-term success for our clients.
                                             </li>
                                             <li>
                                                 <i class="bx bx-check"></i>
@@ -324,9 +326,10 @@
                                         <ul>
                                             <li>
                                                 <i class="bx bx-check"></i>
-                                                Service Excellence: Strive for service excellence in every interaction,
-                                                delivering efficient, reliable, and customized solutions that
-                                                consistently exceed our clients' expectations.
+                                                We strive to streamline global trade, ensure timely
+                                                deliveries, and to exceed our clients’ expectations
+                                                through cutting-edge technology, a skilled work-
+                                                force, and a commitment to sustainable practices
                                             </li>
                                             <li>
                                                 <i class="bx bx-check"></i>
@@ -351,23 +354,40 @@
                                         <ul>
                                             <li>
                                                 <i class="bx bx-check"></i>
-                                                Integrity: We uphold the highest standards of honesty, ethics, and
-                                                transparency in all our dealings, earning the trust and confidence of
-                                                our clients, partners, and colleagues.
+                                                Integrity: Upholding the highest standards of honesty and ethics in all our dealings.
                                             </li>
                                             <li>
                                                 <i class="bx bx-check"></i>
-                                                Reliability: We are committed to delivering on our promises and
-                                                exceeding expectations, consistently providing dependable, timely, and
-                                                quality services to our clients.
+                                                Accountability: Taking ownership of our actions and decisions with full responsibility.
                                             </li>
                                             <li>
                                                 <i class="bx bx-check"></i>
-                                                Collaboration: We believe in the power of teamwork and collaboration,
-                                                fostering an inclusive and supportive environment where diverse
-                                                perspectives are valued, and collective success is celebrated.
+                                                Reliability: Delivering on our promises consistently and exceeding expectations.
                                             </li>
                                             <li>
+                                                <i class="bx bx-check"></i>
+                                                Customer-Centricity: Putting our customers first and delivering solutions that matter.
+                                            </li>
+                                            <li>
+                                                <i class="bx bx-check"></i>
+                                                Collaboration: Working together to achieve greater success through shared goals.
+                                            </li>
+                                            <li>
+                                                <i class="bx bx-check"></i>
+                                                Innovation: Embracing new ideas and technologies to drive continuous improvement.
+                                            </li>
+                                            <li>
+                                                <i class="bx bx-check"></i>
+                                                Excellence: Striving for the highest quality in everything we do.
+                                            </li>
+                                            <li>
+                                                <i class="bx bx-check"></i>
+                                                Compliance: Following regulatory requirements and maintaining ethical standards.
+                                            </li>
+                                            <li>
+                                                <i class="bx bx-check"></i>
+                                                Passion: Approaching our work with enthusiasm and dedication to make a difference.
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -806,7 +826,7 @@ background: linear-gradient(180deg, rgba(61,145,255,0.9990589985994398) 45%, rgb
                         <div class="team-text">
                             <h3  style="color: white">Gladness Mosha </h3>
                             <i> <span>Chief Operating Officer(COO)</span></i>
-                            <p  style="color: white">Gladness Mosha, our General Manager, ensures operational efficiency and delivers exceptional service to our clients.</p>
+                            <p  style="color: white">Gladness Mosha, our Chief Operating Officer, ensures operational efficiency and delivers exceptional service to our clients.</p>
                         </div>
                     </div>
                 </div>
